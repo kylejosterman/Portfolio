@@ -10,36 +10,36 @@ export default function NavBar() {
                     <NavLink
                         to="/"
                         exact
-                        activeClassName="text-white" // On the page
-                        className="inline-flex items-center py-6 px-3 mr-4 text-white hover:text-blue-shadowLight text-4xl font-bold tracking-widest"
+                        activeClassName="text-blue-lightest" // On the page
+                        className="inline-flex items-center py-6 px-3 mr-5 text-white hover:text-blue-darkest text-4xl tracking-widest"
                     >
                         Home
                     </NavLink>
                     <NavLink
                         to="/project"
-                        className="inline-flex items-center py-3 px-3 mr-6 text-white hover:text-blue-shadowLight"
-                        activeClassName="text-blue-dark"
+                        className="inline-flex items-center py-3 px-3 mr-6 text-white hover:text-blue-darkest"
+                        activeClassName="text-blue-lightest"
                     >
                         Projects
                     </NavLink>
                     <NavLink
                         to="/resume"
-                        className="inline-flex items-center py-3 px-3 mr-6 text-white hover:text-blue-shadowLight"
-                        activeClassName="text-blue-dark"
+                        className="inline-flex items-center py-3 px-3 mr-6 text-white hover:text-blue-darkest"
+                        activeClassName="text-blue-lightest"
                     >
                         Resume
                     </NavLink>
                     <NavLink
                         to="/post"
-                        className="inline-flex items-center py-3 px-3 mr-6 text-white hover:text-blue-shadowLight"
-                        activeClassName="text-blue-dark"
+                        className="inline-flex items-center py-3 px-3 mr-6 text-white hover:text-blue-darkest"
+                        activeClassName="text-blue-lightest"
                     >
                         Blog Posts
                     </NavLink>
                     <NavLink
                         to="/about"
-                        className="inline-flex items-center py-3 px-3 mr-6 text-white hover:text-blue-shadowLight"
-                        activeClassName="text-blue-dark"
+                        className="inline-flex items-center py-3 px-3 mr-6 text-white hover:text-blue-darkest"
+                        activeClassName="text-blue-lightest"
                     >
                         About
                     </NavLink>
