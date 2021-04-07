@@ -16,7 +16,7 @@ function App() {
                 <Route component={Home} path="/" exact />
                 {/* exact so always get directed to home */}
                 <Route component={About} path="/about" />
-                <Route component={SinglePost} path="/post:/slug" />
+                <Route component={SinglePost} path="/post/:slug" />
                 <Route component={Post} path="/post" />
                 <Route component={Project} path="/project" />
                 <Route component={Resume} path="/resume" />
