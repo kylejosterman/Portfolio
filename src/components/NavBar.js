@@ -23,13 +23,6 @@ export default function NavBar() {
                         Projects
                     </NavLink>
                     <NavLink
-                        to="/resume"
-                        className="inline-flex items-center py-3 px-3 mr-6 text-white hover:text-blue-darkest"
-                        activeClassName="text-blue-lightest"
-                    >
-                        Resume
-                    </NavLink>
-                    <NavLink
                         to="/post"
                         className="inline-flex items-center py-3 px-3 mr-6 text-white hover:text-blue-darkest"
                         activeClassName="text-blue-lightest"
